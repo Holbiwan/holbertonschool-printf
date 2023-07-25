@@ -14,7 +14,7 @@ typedef struct args
 {
 	char *p;
 	int (*f)(va_list);
-} args_types;
+} args_type;
 
 int (get_func(const charformat))(va_list);
 
