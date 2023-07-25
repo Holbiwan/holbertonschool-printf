@@ -2,11 +2,11 @@
 
 ## **Description**
 
-This repository contains a new version of the _printf() function in the standard library (stdio.h).
-.
-Its purpose is to display text and an indefinite number of variables according to precise rules.
+* This repository contains a new version of the _printf() function in the standard library (stdio.h).
 
-## ** Requirements**
+* Its purpose is to display text and an indefinite number of variables according to precise rules.
+
+## **Requirements**
 •	All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 •	All your files should end with a new line
 •	Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
@@ -36,11 +36,11 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 * Write a function that produces output according to a format.
 
-###**1. Education is when you read the fine print. Experience is what you get if you don't**
+### **1. Education is when you read the fine print. Experience is what you get if you don't**
 
 * Handle the following conversion specifiers.
 
-## **2. Just because it's in print doesn't mean it's the gospel**
+### **2. Just because it's in print doesn't mean it's the gospel**
 
 * Create a man page for your function.
 ## File Descriptions
