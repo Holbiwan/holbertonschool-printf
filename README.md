@@ -2,18 +2,19 @@
 
 ## **Description**
 
-* This repository contains a new version of the _printf() function in the standard library (stdio.h).
-
-* Its purpose is to display text and an indefinite number of variables according to precise rules.
+This repository contains a new version of the _printf() function in the standard library (stdio.h).
+.
+Its purpose is to display text and an indefinite number of variables according to precise rules.	
+![This is an image] https://cdn.hashnode.com/res/hashnode/image/upload/v1680014401609/04b9954e-dbe9-4e9c-be68-8d6e8caf41a8.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp
 
 ## **Requirements**
-•	All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-•	All your files should end with a new line
-•	Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-•	You are not allowed to use global variables
-•	No more than 5 functions per file
-•	The prototypes of all your functions should be included in your header file called main.h
-•	All your header files should be include guarded
+-	All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+-	All your files should end with a new line
+-	Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+-	You are not allowed to use global variables
+-	No more than 5 functions per file
+-	The prototypes of all your functions should be included in your header file called main.h
+-	All your header files should be include guarded
 ## **Authorized functions and macros**
   - `write` (`man 2 write`)
   - `malloc` (`man 3 malloc`)
@@ -55,4 +56,5 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 Sabrina Papeau
 
 Claudine Sillam
+
 
