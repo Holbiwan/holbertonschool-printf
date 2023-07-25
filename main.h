@@ -30,7 +30,6 @@ int print_pctent(va_list args);
 
 int print_decimal(va_list args);
 
-int print_decimal(va_list args);
 
 #endif
 
