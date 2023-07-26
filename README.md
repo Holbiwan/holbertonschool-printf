@@ -58,6 +58,6 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ## Authors
 
-Sabrina Papeau
+Sabrina Papeau  - [Github](https://github.com/Holbiwan)
 
-Claudine Sillam
+Claudine Sillam - [Github](https://github.com/Coconuts-del)
