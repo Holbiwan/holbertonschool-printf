@@ -1,9 +1,12 @@
 
 _PRINTF  "28th July 2023  "_printf manual"
 
+
 “NAME”
 
 _printf
+
+
 
 “SYNOPSIS”
 
@@ -18,19 +21,25 @@ pointer to that specifier function to call the specifier function on the next \
 queued argument from the arg_list. Each specifier function writes a character \
 one at a time as determined from the value in arg_list.
 
+
+
 “COMPILATION”
 
 Files compile  with Ubuntu 20.04.4 LTS using  using gcc  with  options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 
-“EXAMPLE”
+“EXAMPLES”
+
+
+
 
 “DESCRIPTION”
 The function _printf() writes output to standard output. It writes the output \
-under the control of a format string that specifies how subsequent arguments \
-are converted for output.
+under the control of a format string that specifies how subsequent arguments.
 
 “BUGS”
+
+
 
 "AUTHORS"
 Sabrina Papeau and Claudine Sillam
