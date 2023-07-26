@@ -3,7 +3,6 @@
 ## **Description**
 
 This repository contains a new version of the _printf() function in the standard library (stdio.h).
-.
 Its purpose is to display text and an indefinite number of variables according to precise rules.	
 ![This is an image](https://zupimages.net/up/23/30/rdr2.png)
 ## **Requirements**
