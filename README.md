@@ -5,7 +5,7 @@
 This repository contains a new version of the _printf() function in the standard library (stdio.h).
 Its purpose is to display text and an indefinite number of variables according to precise rules.	
 
-![This is an image](https://zupimages.net/viewer.php?id=23/30/9a23.png)
+![This is an image](https://zupimages.net/up/23/30/9a23.png)
 
 ## **Requirements**
 -	All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
