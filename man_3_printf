@@ -3,13 +3,10 @@ _PRINTF  "28th July 2023  "_printf manual"
 
 
 “NAME”
-
 _printf
 
 
-
 “SYNOPSIS”
-
 _printf() function takes 2 arguments: a character pointer to a string: format
 and a 'variable arguments list': arg_list. _printf() loops through the format 
 string searching for a conversion specifier, which is indicated with the '%'
@@ -26,20 +23,17 @@ one at a time as determined from the value in arg_list.
 The function printf returns the number of characters printed. In case of  error it returns a negative value.
 
 
-
 “COMPILATION”
-
 Files compile  with Ubuntu 20.04.4 LTS using  using gcc  with  options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 
 “EXAMPLES”
 
 
-
-
 “DESCRIPTION”
-The function _printf() writes output to standard output. It writes the output \
+The function _printf() writes output to standard output. It writes the output
 under the control of a format string that specifies how subsequent arguments.
+
 
 “BUGS”
 
