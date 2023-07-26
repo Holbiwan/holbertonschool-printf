@@ -26,7 +26,12 @@ Its purpose is to display text and an indefinite number of variables according t
 
 ## **Compilation**
 •	Your code will be compiled this way:
+
+```
+
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+
+```
 ## Mandatory Tasks
 
 
