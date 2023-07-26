@@ -3,20 +3,21 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <string.h>
+#include <limits.h>
 #include <unistd.h>
 /**
- * struct types - composition of the structure
+ * struct argx - composition of the structure
  *
  * @p : pointer to argument
  * @f: The function associated
  */
-typedef struct args
+typedef struct argx
 {
 	char *p;
-	int (*f)(va_list);
+	int (*f)(va_list args);
 } args_type;
 
-int (get_func(const charformat))(va_list);
+int (*get_func(const char *format))(va_list);
 
 int _putchar(char c);
 
