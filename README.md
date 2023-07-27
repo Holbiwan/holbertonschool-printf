@@ -24,7 +24,7 @@ Its purpose is to display text and an indefinite number of variables according t
   - `va_copy` (`man 3 va_copy`)
   - `va_arg` (`man 3 va_arg`)
 
-## **File Description**
+## **Files Description**
 
 Specifiers characters at the end define the type and the interpretation of its corresponding argument:
 
@@ -39,14 +39,14 @@ Specifiers characters at the end define the type and the interpretation of its c
 
 |**Functions**|**Description**|
 |--------|---------------|
-|get_function|For test the specifier character|:pushpin:
+|get_function|For test the specifier character|
 |_putchar|Prints characters|:pushpin:
-|printf|Prints the output according format|:pushpin
-|print_str|Prints strings|:pushpin:
-|print_char|Prints characters|:pushpin:
-|print_dec|Prints integers|:pushpin:
+|printf|Prints the output according format|
+|print_str|Prints strings|
+|print_char|Prints characters|
+|print_dec|Prints integers|
 
-## **Compilation**
+## **Compilation** 
 •	Your code will be compiled this way:
 
 ```
@@ -54,7 +54,7 @@ Specifiers characters at the end define the type and the interpretation of its c
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ```
-## Mandatory Tasks
+## Mandatory Tasks :warning:
 
 
 ### **0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life**
@@ -68,12 +68,11 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ### **2. Just because it's in print doesn't mean it's the gospel**
 
 * Create a man page for your function.
-## File Descriptions
 
 *********
 
 
-## Authors
+## Authors :pencil2:
 
 Sabrina Papeau  - [Github](https://github.com/Holbiwan)
 
