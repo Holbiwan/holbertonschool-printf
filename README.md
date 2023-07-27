@@ -24,6 +24,27 @@ Its purpose is to display text and an indefinite number of variables according t
   - `va_copy` (`man 3 va_copy`)
   - `va_arg` (`man 3 va_arg`)
 
+**File Description**
+
+          <h3>Specifiers </h3>
+Specifier characters at the end define the type and the interpretation of its corresponding argument:
+| Specifier  | Output          |
+|------------|-----------------|
+| `c`        | character       |
+| `s`        | string          |
+| `%`        | %               |
+| `d`  | Signed integer  |
+| `i` | Signed integer  |
+
+|**File**|**Description**|
+|--------|---------------|
+|get_function|get_function function|[📌]
+|_putchar|putchar function|[📌]
+|printf|main function|[📌]
+|print_str|print_str function|[📌]
+|print_char.c|print_char function|[📌]
+|print_dec|print_dec function|[📌]
+
 ## **Compilation**
 •	Your code will be compiled this way:
 
