@@ -69,6 +69,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 * Create a man page for your function.
 
+******
 
 ## **Flowchart**
 ![flowchart](https://zupimages.net/up/23/30/vzp5.jpg)
