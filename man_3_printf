@@ -1,5 +1,5 @@
 
-_PRINTF  "28th July 2023  "_printf manual"
+_PRINTF  "28th July 2023 - Holberton School
 
 
 NAME
@@ -12,16 +12,26 @@ The _printf() function searches the string for a conversion specifier, indicated
  If it is found, the function corresponding to the conversion specifier given in the format string is executed.
 
 
-
 RETURN VALUE
 The function printf returns the number of characters printed. In case of  error it returns a negative value.
+
+Specifiers
+
+c
+- The integer or char argument converts to an unsigned char, and the resulting \
+character is written.
+
+s
+- The argument shall be a string.The behavior of printf with the s conversion specifier
+is undefined if the argument value is not a pointer to a literal string.
+Characters from the literal string array are written up to, but not including.
+
+%
+- print percent
 
 
 COMPILATION
 Files compile  with Ubuntu 20.04.4 LTS using  using gcc  with  options -Wall -Werror -Wextra -pedantic -std=gnu89
-
-
-EXAMPLES
 
 
 DESCRIPTION
@@ -29,8 +39,42 @@ The function _printf() writes output to standard output. It writes the output
 under the control of a format string that specifies how subsequent arguments.
 
 
-BUGS
+EXAMPLES 
+To print the adress of Holberton School Paris in the form "22 Terr bellini, 92800 Puteaux" followed by a new line :
+#include "main.h"
 
+int main(void)
+
+{
+
+	char *street = "Terr Bellini";
+
+	char *city = "Puteaux",
+
+	char *state = "FRANCE";
+
+	printf("%d %s, %s, %s, %d\\n", 22, street, city, state, 92800);
+
+}
+
+
+To print the values of LONG_MAX and LONG_MIN aligned and
+left-justified with a width of 40:
+
+#include "main.h"
+
+#include <limits.h>
+
+int main(void)
+
+{
+
+	_printf("% -40ld -> LONG_MAX\\n", LONG_MAX);
+
+	_printf("%-40ld -> LONG_MIN\\n", LONG_MIN);
+
+BUGS
+No bugs
 
 
 AUTHORS
