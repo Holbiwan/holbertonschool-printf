@@ -25,5 +25,5 @@ int (*get_func(const char *format))(va_list)
 		if (*format == *(p[i].p))
 			return (p[i].f);
 	}
-	return (NULL);
+	return (p[5].f);
 }
