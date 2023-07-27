@@ -7,7 +7,7 @@
  *Return: number of characters printed
  */
 
-int _printf(const char *format, ...)
+int _printf(const char format, ...)
 {
 		int i = 0, count = 0;
 		int (*f)(va_list);
