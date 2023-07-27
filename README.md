@@ -26,24 +26,25 @@ Its purpose is to display text and an indefinite number of variables according t
 
 **File Description**
 
-          <h3>Specifiers </h3>
-Specifier characters at the end define the type and the interpretation of its corresponding argument:
+Specifiers characters at the end define the type and the interpretation of its corresponding argument:
+
+
 | Specifier  | Output          |
 |------------|-----------------|
 | `c`        | character       |
 | `s`        | string          |
 | `%`        | %               |
-| `d`  | Signed integer  |
-| `i` | Signed integer  |
+| `d`        | Signed integer  |
+| `i`        | Signed integer  |
 
-|**File**|**Description**|
+|**Functions**|**Description**|
 |--------|---------------|
-|get_function|get_function function|[📌]
-|_putchar|putchar function|[📌]
-|printf|main function|[📌]
-|print_str|print_str function|[📌]
-|print_char.c|print_char function|[📌]
-|print_dec|print_dec function|[📌]
+|get_function|For test the specifier character|:pushpin:
+|_putchar|Prints characters|:pushpin:
+|printf|Prints the output according format|:pushpin
+|print_str|Prints strings|:pushpin:
+|print_char|Prints characters|:pushpin:
+|print_dec|Prints integers|:pushpin:
 
 ## **Compilation**
 •	Your code will be compiled this way:
@@ -73,7 +74,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ## File Descriptions
 ********
 
-## Tests
+## Tests :warning:
 *********
 
 
