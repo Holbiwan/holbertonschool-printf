@@ -24,7 +24,7 @@ Its purpose is to display text and an indefinite number of variables according t
   - `va_copy` (`man 3 va_copy`)
   - `va_arg` (`man 3 va_arg`)
 
-**File Description**
+## **File Description**
 
 Specifiers characters at the end define the type and the interpretation of its corresponding argument:
 
@@ -57,9 +57,6 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ## Mandatory Tasks
 
 
-
-
-
 ### **0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life**
 
 * Write a function that produces output according to a format.
@@ -72,9 +69,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 * Create a man page for your function.
 ## File Descriptions
-********
 
-## Tests :warning:
 *********
 
 
